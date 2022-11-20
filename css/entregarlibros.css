@@ -1,0 +1,87 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-image: url(../img/entregadelibros.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.encabezado{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-content: center;
+}
+
+.perfil{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    
+}
+
+.ctrl{
+    width: 150px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.opciones a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.foto{
+    border: 1px solid white;
+    height: 70px;
+    width: 70px;
+    margin-top: 15px;
+    margin-left: 200px;
+}
+
+.imagen{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    text-align: right;
+}
+
+.controls{
+    width: 100%;
+    border: 1px solid #017bab;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    padding: 11px 10px;
+    background: #252323;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.usuario{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+nav{
+    background-color: palegoldenrod;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 50px;
+}
+
+
